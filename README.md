@@ -1,11 +1,6 @@
-# **DEPRECATED** - This package is deprecated. If you need a similar package please consider using [react-native-svg](https://github.com/react-native-svg/react-native-svg).
 # `@react-native-community/art`
 
-[![CircleCI][circle-ci-badge]][circle-ci]
-![MIT License][license-badge]
-[![PRs Welcome][pr-welcome-badge]][make-a-pr]
-![Supports Android and iOS][support-badge]
-[![Lean Core Badge][lean-core-badge]][lean-core-issue]
+[![CircleCI](https://img.shields.io/circleci/project/github/react-native-community/art/master.svg?style=flat-square)](https://circleci.com/gh/react-native-community/art) ![MIT License](https://img.shields.io/npm/l/@react-native-community/slider.svg) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com) ![Supports Android and iOS](https://img.shields.io/badge/platforms-android%20|%20ios-lightgrey.svg)
 
 > _NOTE: ART was extracted from core `react-native` as a part of "[Lean Core](https://github.com/facebook/react-native/issues/23313)" effort._
 
@@ -115,19 +110,6 @@ import {Surface, Shape} from '@react-native-community/art';
 
 You can find API reference [here](https://github.com/react-native-community/art/tree/master/docs/api.md).
 
-## Related
-
-- [react-native-svg](https://github.com/react-native-community/react-native-svg) - Render SVGs in any React project
-
 ## License
 
 The library is released under the MIT licence. For more information see `LICENSE`.
-
-[support-badge]:https://img.shields.io/badge/platforms-android%20|%20ios-lightgrey.svg?style=flat-square
-[make-a-pr]:http://makeapullrequest.com
-[pr-welcome-badge]:https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square
-[license-badge]:https://img.shields.io/npm/l/@react-native-community/slider.svg?style=flat-square
-[circle-ci]:https://circleci.com/gh/react-native-community/art
-[circle-ci-badge]: https://img.shields.io/circleci/project/github/react-native-community/art/master.svg?style=flat-square
-[lean-core-badge]: https://img.shields.io/badge/Lean%20Core-Extracted-brightgreen.svg?style=flat-square
-[lean-core-issue]: https://github.com/facebook/react-native/issues/23313

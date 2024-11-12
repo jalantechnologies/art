@@ -8,7 +8,6 @@
 #import "ARTNode.h"
 
 #import "ARTContainer.h"
-#import "RCTConvert+ART.h"
 
 @implementation ARTNode
 
@@ -80,9 +79,7 @@
   CGContextSaveGState(context);
   CGContextConcatCTM(context, self.transform);
   CGContextSetAlpha(context, self.opacity);
-  UIColor *color = [UIColor colorWithCGColor:[RCTConvert CGColor:@(self.shadow.color)]];
-  color = [color colorWithAlphaComponent:self.shadow.alpha];
-  CGContextSetShadowWithColor(context, self.shadow.offset, self.shadow.blur, color.CGColor);
+  CGContextSetShadowWithColor(context, self.shadow.offset, self.shadow.blur, self.shadow.color.CGColor);
 }
 
 - (void)renderLayerTo:(CGContextRef)context
